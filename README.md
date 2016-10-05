@@ -19,9 +19,9 @@ This is a repo for learning and playing with git and GitHub.
 * `git log --graph --decorate --oneline --all` - Best git command evah. The logs, with a graph of commits and branches, decorated with all pointers, each commit taking up oneline, including branches that are not checked out.
 * `git checkout -b (newbranch)` - Create a new branch with specified name and check it out at the same time.
 * `git checkout (branchname)` - Check out a branch that already exists.
-* `git branch` - list all branches
+* `git branch` - List all branches and star the branch that is checked out.
 * Merging
-  * `git checkout (branch you want to merge changes INTO)`
+  * `git checkout (branch you want to bring changes INTO)`
   * `git merge (branch that contains committed changes of work you want)`
   * reminder: I like to merge master INTO the branch (checkout branch, merge master), make sure all is well, then merge branch into master (checkout master, merge branch).
 
@@ -31,6 +31,7 @@ This is a repo for learning and playing with git and GitHub.
 
 * `git remote -v` - List git remotes names and associated urls.
 * `git remote add (name of remote) (ssh or https url)` - Add specified remote name and associated url. SSH is way cooler than https.
+* `git remote set-url (name of pre-existing remote) (new ssh or https url)`
 * `git push (name of remote) (name of branch)` - Push the work in specified branch to specified location.
 * Getting remote work to your local machine (choose fetch and merge OR pull)
   * Fetch and merge
@@ -46,8 +47,11 @@ This is a repo for learning and playing with git and GitHub.
 
 ---
 
-Advanced stuff
+Advanced stuff / To do
 
+* [set up SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows)
+* collaboration without forks
+* branch and PR
 * interactive rebases
 * pushing a branch as "master"
   * `git push staging testbranch:master`
