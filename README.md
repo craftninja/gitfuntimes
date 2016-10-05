@@ -50,8 +50,10 @@ This is a repo for learning and playing with git and GitHub.
 Advanced stuff / To do
 
 * [set up SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows)
+* resolving merge conflicts
 * collaboration without forks
 * branch and PR
+* rebase workflow
 * interactive rebases
 * pushing a branch as "master"
   * `git push staging testbranch:master`
